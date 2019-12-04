@@ -1,0 +1,61 @@
+body {
+	margin: 45px 45px;
+}
+
+.btn {
+	display: block;
+	margin-bottom: 30px;
+}
+.btn-start {
+    position: absolute;
+    left: 800px;
+    top: 60px;
+    font-size: 15px;
+}
+#snake{
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 540px;
+    top: 100px;
+}
+
+.modal-content {
+    font-family: Tahoma, Geneva, sans-serif;
+    position: fixed;
+    z-index: 20;
+    top: 120px;
+    left: 50%;
+    display: none;
+    width: 350px;
+    height: 200px;
+    margin-left: -230px;
+    padding: 50px;
+    padding-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+    color: #d3508e;
+    border: 1px solid #cccccc;
+    background: #fff;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, .7);
+    text-shadow: 1px 1px pink;
+  }
+.modal-content-text {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    margin: 0;
+	margin-bottom: 30px;
+}
+.modal-content .btn {
+	display: inline-block;
+	margin-right: 30px;
+    vertical-align: top;
+    font-size: 15px;
+    height: 40px;
+    width: 80px;
+}
+
+.modal-content-show {
+    display: block;
+    animation: bounce .6s;
+}
